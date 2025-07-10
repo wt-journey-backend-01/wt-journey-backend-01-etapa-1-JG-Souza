@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+body {
+  background: #fafafa;
+  line-height: 1.6;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e63946;
+  color: #e63946;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.2rem;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  width: 100%;
+}
+
+.cardapio {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+.cardapio h2 {
+  color: #e63946;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cardapio ul {
+  list-style: none;
+}
+
+.cardapio li {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.cardapio li:last-child {
+  border-bottom: none;
+}
+
+.cardapio h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.sugestao {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.sugestao h2 {
+  color: #e63946;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-sugestao label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.form-sugestao input[type="text"],
+.form-sugestao textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.form-sugestao input[type="text"]:focus,
+.form-sugestao textarea:focus {
+  outline: none;
+  border-color: #e63946;
+}
+
+.form-sugestao button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-sugestao button:hover {
+  background-color: #b12731;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+footer nav a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato - DevBurger</title>
+    <link rel="stylesheet" href="/css/contato.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fale Conosco</h1>
+      <form action="/contato" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <a href="/" class="back-link">Voltar para o início</a>
+    </div>
+  </body>
+</html>
